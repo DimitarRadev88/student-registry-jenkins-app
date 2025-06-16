@@ -1,0 +1,68 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# TypeScript build files
+*.js.map
+*.d.ts.map
+*.tsbuildinfo
+
+# Compiled output
+/dist/
+/build/
+/out/
+/tmp/
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.njsproj
+*.sln
+*.swp
+
+# OS generated files
+.DS_Store
+.cache/
+.project
+.classpath
+.settings/
+.idea/
+Thumbs.db
+
+# Environment variables
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Test coverage
+/coverage/
+
+# Production build output (if different from /dist)
+/public/build/
+
+# Etc.
+.npm/
+.c9/
+.nyc_output/
+/bower_components/
+
+# Local .pnp files
+.pnp.js
+.pnp.cjs
+
+# ESLint cache
+.eslintcache
+
+# Next.js specific
+.next/
